@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --fundo-cinza: #cccccc;
+    --fundo-branco: #f1eded;
+    --vermelho-strong: #F0180C;
+    --letra-preto: #000000;
+    --botao-hover: #463939;
+    --produtos-hover: #A9C700;
+    --botao-produtos-hover: #35bb45;
+}
+
+body {
+    background-color: var(--fundo-branco);
+}
+
+.cabecalho {
+    background-color: var(--fundo-cinza);
+    position: relative;
+    padding: 20px 0;
+}
+
+.menu {
+    display: inline;
+    margin: 0 0 0 15px;
+    position: absolute;
+    top: 110px;
+    right: 90px;
+}
+
+.home {
+    color: var(--letra-preto);
+    font-size: 36px;
+    font-family: 'bebas neue' , sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.home:hover {
+    color: var(--botao-hover);
+}
+
+.cabecalho__imagem {
+    margin-left: 50px;
+}
+
+.titulo:hover {
+    font-size: 35px;
+}
+
+.lista__produtos {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+    padding: 50px 0;
+}
+
+
+li {
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 4px solid #000000;
+    border-radius: 10px;
+}
+
+li:hover {
+    border-color: var(--produtos-hover);
+}
+
+li:active {
+    border-color: var(--botao-produtos-hover);
+}
+
+.titulo {
+    font-style: italic;
+    font-family: 'Josenfin Sans' , sans-serif;
+    font-size: 32px;
+}
+
+.descricao {
+    font-size: 18px;
+    font-family: 'Josenfin Sans' , sans-serif;
+    font-style: italic;
+}
+
+.preco {
+    font-size: 22px;
+    font-family: 'Josenfin Sans' , sans-serif;
+    font-weight: 700;
+    margin: 10px 0 0;
+}
+
+.rodape {
+    background: url("../img/bg.jpg");
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 13px;
+}

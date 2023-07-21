@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --fundo-cinza: #cccccc;
+    --fundo-branco: #f1eded;
+    --vermelho-strong: #F0180C;
+    --letra-preto: #000000;
+    --botao-hover: #463939;
+    --produtos-hover: #A9C700;
+    --botao-produtos-hover: #35bb45;
+    --cor-pergunta: #eb1c1c;
+}
+
+body {
+    background-color: var(--fundo-branco);
+}
+
+.cabecalho {
+    background-color: var(--fundo-cinza);
+    position: relative;
+    padding: 20px 0;
+}
+
+.menu {
+    display: inline;
+    margin: 0 0 0 15px;
+    position: absolute;
+    top: 110px;
+    right: 90px;
+}
+
+.home {
+    color: var(--letra-preto);
+    font-size: 36px;
+    font-family: 'bebas neue' , sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.home:hover {
+    color: var(--botao-hover);
+}
+
+.cabecalho__imagem {
+    margin-left: 50px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.formulario {
+    margin: 40px 0;
+}
+
+label {
+    display: block;
+    font-family: 'bebas neue' , sans-serif;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.input-padrao:hover {
+    background-color: var(--fundo-cinza);
+}
+
+.checkbox {
+    margin: 20px 0;
+    color: var(--cor-pergunta);
+    font-family: 'bebas neue' , sans-serif;
+}
+
+p {
+    display: block;
+    font-family: 'bebas neue' , sans-serif;
+    font-size: 30px;
+    color: var(--cor-pergunta);
+    margin: 0 0 10px;
+}
+
+textarea {
+    display: block;
+    font-family: 'bebas neue' , sans-serif;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+textarea:hover {
+    background-color: var(--fundo-cinza);
+}
+
+select {
+    border-radius: 5px;
+    color: var(--fundo-branco);
+    background-color: var(--letra-preto);
+    width: 10%;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+}
+
+option {
+    border-radius: 5px;
+    border: none;
+}
+
+select:hover {
+    background-color: var(--fundo-cinza);
+    color: var(--letra-preto);
+}
+
+.Enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: var(--letra-preto);
+    color: var(--fundo-branco);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.Enviar:hover {
+    background-color: var(--fundo-cinza);
+    color: var(--letra-preto);
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: var(--botao-hover);
+    color: var(--fundo-branco);
+}
+
+td , th {
+    border: 1px solid var(--letra-preto);
+    padding: 8px 15px;
+}
+
+.rodape {
+    background: url("../img/bg.jpg");
+    text-align: center;
+}
+
+.credito__alura {
+    color: white;
+    font-size: 13px;
+}
